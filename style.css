@@ -1,0 +1,163 @@
+body{
+	background: rgb(230,230,230);
+	color:#0f3057;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+}
+
+h1, h2{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	color:#00587a;
+	font-weight:500;
+	letter-spacing: 5px;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2{
+	color:#008891;
+	font-size: 19px;
+	font-weight: 70;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+a{
+	font-family: 'Poppins', sans-serif;
+	color:#0f3057;
+	text-decoration: none;
+	font-size : 12px;
+	font-weight : bold;
+	text-align: center;
+}
+
+a:hover{
+	font-family: 'Poppins', sans-serif;
+	color:grey;
+	font-size : 12px;
+	font-weight : bold;
+	text-align: center;
+}
+
+
+.container {
+	width: 760px;
+	margin: 0px auto;
+}
+
+@media (max-width: 700px) {
+	#container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	#container {
+		width: 400px;
+	}
+}
+
+
+.white_cards {
+	background: white;
+	padding:30px;
+	border-radius: 4px;
+	box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1);
+	width: 700px;
+	margin: 10px 0px;
+
+}
+
+.white_cards p {
+	text-align: center;
+}
+
+@media (max-width: 700px){
+
+.white_cards {
+	width: 500px
+}
+
+}
+
+@media (max-width: 500px){
+
+.white_cards {
+	width: 300px
+}
+
+}
+
+.img_circle{
+	width: 150px;
+	border-radius: 50%;
+}
+
+
+.btn_blue {
+	background-color: #00587a;
+	color: white;
+	padding : 15px 20px;
+	border-radius: 4px;
+
+}
+
+
+.btn_blue:hover {
+
+	background-color: #008891;
+	color: white;
+	padding : 15px 20px;
+	border-radius: 4px;
+}
+
+.list_inline {
+	list-style: none;
+	padding-top: 0px;
+	text-align: center;
+	padding-left:0px;
+
+}
+
+.list_inline li {
+	display: inline;
+	padding : 10px;
+
+}
+
+.list_inline i {
+	font-size: 40px;
+	color : rgb(230,230,230);
+}
+
+.list_inline i:hover {
+	font-size: 40px;
+	color : grey;
+}
+
+}
+
+#link {
+	display: center;
+}
+
+#introduction {
+	margin-top: 30px;
+    margin-bottom :40px;
+
+}
+
+#profile-picture img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
